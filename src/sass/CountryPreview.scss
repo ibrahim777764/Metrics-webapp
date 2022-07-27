@@ -1,0 +1,12 @@
+.CountryPreview {
+  background-size: 80%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  transition: all 150ms ease-in-out;
+}
+
+.CountryPreview:hover {
+  background-size: 90%;
+  background-position: top left;
+}

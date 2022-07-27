@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$blue: #436ab1;
+$pink: #ec4c8a;
+
+@font-face {
+  font-family: "Gill Sans";
+  src:
+    url("./data/fonts/Gill-Sans.otf") format("opentype"),
+    url("./data/fonts/Gill-Sans-Medium.otf") format("opentype"),
+    url("./data/fonts/Gill-Sans-Light.otf") format("opentype"),
+    url("./data/fonts/Gill-Sans-Bold.otf") format("opentype");
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gill Sans", serif !important;
+}
+
+button,
+a {
+  font-family: "Lato", sans-serif !important;
+  cursor: pointer;
+}
