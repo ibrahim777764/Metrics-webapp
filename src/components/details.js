@@ -6,7 +6,7 @@ const Details = (props) => {
   return (
     <div className="details">
       <div className="contry-div">
-        <h1>
+        <h1> 
           Country:
           {country.country}
         </h1>
