@@ -5,7 +5,7 @@ import { FaLessThan } from 'react-icons/fa';
 
 const todayDate = new Date().toISOString().slice(0, 10);
 
-const Nav = () => (
+const Nav = () => ( 
   <div className="nav">
     <nav className="same">
       <ul className="nav-link">
