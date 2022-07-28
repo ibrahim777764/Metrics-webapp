@@ -36,7 +36,7 @@ h1 {
 }
 
 .wrapper {
-  background-color: #f15793;
+  background-color: #10183d;
   text-align: center;
   border: 1px solid rgb(131, 123, 123);
   box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
@@ -46,7 +46,7 @@ h1 {
 
 .wrapper:nth-child(4n+2),
 .wrapper:nth-child(4n+3) {
-  background-color: #d4125d;
+  background-color: #12d4d4;
 }
 
 .cou {
@@ -182,7 +182,7 @@ a {
 
 .dates {
   padding-bottom: 3px;
-  background-color: #d4125d;
+  background-color: #20648b;
 }
 
 .sor {
@@ -193,7 +193,7 @@ a {
 }
 
 .sor:nth-child(even) {
-  background-color: #d4125d;
+  background-color: #20648b;
 }
 
 .dat-type {
