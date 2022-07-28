@@ -4,7 +4,7 @@ import covidReducer from '../redux/actions/fetchapi';
 
 const reducer = combineReducers({
   covidReducer,
-});
+}); 
 const store = createStore(
   reducer,
   applyMiddleware(thunk),
