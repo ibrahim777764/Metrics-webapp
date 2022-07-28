@@ -4,7 +4,7 @@ const countries = () => Promise.resolve({
       code: 'IN',
       name: 'India',
       latest_data: {
-        recovered: 12347, 
+        recovered: 12347,
       },
     },
     {
