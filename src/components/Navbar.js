@@ -9,7 +9,7 @@ const Nav = () => (
   <div className="nav">
     <nav className="same">
       <ul className="nav-link">
-        <nav className="span-date"> 
+        <nav className="span-date">
           <NavLink href="https://coviid.netlify.app/" className="home" activeclassname="selected" to="/">
             <FaLessThan />
           </NavLink>
