@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Component test Renders main Page 1`] = `
+<div>
+  <form>
+    <input
+      format="YYYY-MM-DD"
+      id="date"
+      type="date"
+    />
+    <button
+      id="sub"
+      onClick={[Function]}
+      type="button"
+    >
+      CLICK!
+    </button>
+    <br />
+    <input
+      className="search"
+      onChange={[Function]}
+      placeholder="SEARCH BY COUNTRY NAME"
+      type="text"
+      value=""
+    />
+  </form>
+  <div
+    className="title"
+  >
+     
+  </div>
+</div>
+`;
