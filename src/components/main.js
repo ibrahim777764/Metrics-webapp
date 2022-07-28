@@ -3,34 +3,16 @@ import { useSelector, useDispatch } from 'react-redux';
 import Country from './countrylist';
 import { getCovidFromApi } from '../redux/actions/fetchapi';
 
-// const todayDate = new Date().toISOString().slice(0, 10);
 const Home = () => {
   const dispatch = useDispatch();
   const dataCovid = useSelector((state) => state.covidReducer);
-  // console.log(dataCovid, ' new data covid response');
+
   useEffect(() => {
     if (dataCovid) {
       dispatch(getCovidFromApi());
-      // dispatch(getCovid());
     }
   }, []);
-  // const handleSub = () => {
-  //   const num = document.getElementById('date').value;
-  //   const baseUrldate = `https://api.covid19tracking.narrativa.com/api/${num}`;
-  //   if (num > todayDate) {
-  //     alert('Please, provide a valid date!');
-  //     document.getElementById('date').value = '';
-  //   } else {
-  //     const api = () => async () => {
-  //       const request = await fetch(baseUrldate);
-  //       const response = await request.json();
-  //       const data = response.dates[num].countries;
-  //       const entries = Object.entries(data);
-  //       dispatch(getCovid(entries));
-  //     };
-  //     dispatch(api());
-  //   }
-  // };
+
   const [value, setValue] = useState('');
   const inputHandler = (e) => {
     setValue(e.target.value);
@@ -38,10 +20,6 @@ const Home = () => {
   return (
     <div>
       <form>
-        {/* <input type="date" id="date" format="YYYY-MM-DD" /> */}
-        {/* <button id="sub" onClick={handleSub} type="button"> */}
-        {/* CLICK! */}
-        {/* </button> */}
         <br />
         <input placeholder="SEARCH BY COUNTRY NAME" className="search" type="text" value={value} onChange={inputHandler} />
       </form>

@@ -2,7 +2,7 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 
 const Country = (props) => {
   const country = props;
-  // console.log(country.links);
+
   return (
     <div className="wrapper">
       <div className="btn-head">
