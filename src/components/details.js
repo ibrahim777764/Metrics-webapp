@@ -5,7 +5,7 @@ const Details = (props) => {
   const country = useParams();
   return (
     <div className="details">
-      <div className="contry-div"> 
+      <div className="contry-div">
         <h1>
           Country:
           {country.country}
