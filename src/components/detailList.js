@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { getCovidFromApi, getCountry } from '../redux/actions/fetchapi';
 import Details from './details';
 
-const DetailsList = () => {
+const DetailsList = () => { 
   const dispatch = useDispatch();
   const dataCovid = useSelector((state) => state.covidReducer);
   useEffect(() => {
