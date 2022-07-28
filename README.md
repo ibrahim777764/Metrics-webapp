@@ -21,27 +21,21 @@ We will select an API that provides numeric data about a topic that you like and
 
 
 ## Live Link 
-[LINK LIVE](https://coviid.netlify.app/)
+[LINK LIVE](https://resilient-torrone-fd7bde.netlify.app)
 
-[LOOM LINK](https://www.loom.com/share/a5ffa81c46d64a61baa132ecad7dfa99)
+[LOOM LINK]()
 ## Getting Started
 
-**To get a copy of this repo into your local machine run the following command:**
-```
-git clone  git@github.com:aakbarkhan/metrics-webapp.git
-cd matrices-app
-In visual studio code you can click the go live button to view it live in the browser.
-```
-- Or press the green Code button in the upper right corner and choose to download from the Download ZIP link.
+To get a local copy up and running follow these simple example steps.
+
+- Clone this repository with git clone `git@github.com:ibrahim777764/Metrics-webapp.git` using your terminal or command line.
+- Change to the project directory by entering : <br>
+  `cd Metrics-webapp` in the terminal
 
 
-## Setup
+### Setup
 
-- Add linters from linters-config
-
-- Set up a new project Create React App (CRA).
-
-- Create a React application is using Create React App (CRA) and following the instructions in this [guide](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+You can clone this repository using the next command: `git@github.com:ibrahim777764/Metrics-webapp.git`
   
   
 ```
@@ -61,10 +55,12 @@ npm start
 
 ## Author
 
-👤 **aakbarkhan**
+👤 **ibrahim naseer**
 
-- GitHub: [@aakbarkhan](https://github.com/aakbarkhan)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/akuu-khan)
+I am an aspiring web developer from pakistan.
+- GitHub: [@ibrahimgit](https://github.com/ibrahim777764)
+- Twitter: [Ibrahimtwit](https://twitter.com/Ibrahim66650696)
+- LinkedIn: [@ibrahimlin](https://www.linkedin.com/in/ibrahim-naseer-215667225/)
 
 ## 🤝 Contributing
 
