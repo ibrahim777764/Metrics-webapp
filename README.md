@@ -3,9 +3,7 @@
 
 This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
-We will select an API that provides numeric data about a topic that you like and then build the webapp around it. The webapp will have several pages:
-- one page with a list of items that could be filtered by some parameters; This page should be homepage.
-- one page for the item details;
+In this website you can see all covid information
 
 ## Built With
 
@@ -38,20 +36,9 @@ To get a local copy up and running follow these simple example steps.
 You can clone this repository using the next command: `git@github.com:ibrahim777764/Metrics-webapp.git`
   
   
-```
-npx create-react-app react-redux-capstone
-cd react-redux-capstone
-npm start
-```
+### Install
 
-  - Add React Redux
-
-```
- 
- npm install react-redux
-
-```
-- Add React Router [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+After clone the repository, you should to run `npm install` since the terminal to install all dependencies needed to the correct working of the project.
 
 ## Author
 
