@@ -9,7 +9,7 @@ const Country = (props) => {
         <h1 className="btn" type="button" id={country.country}>{country.country}</h1>
         <a className="click-link" href={country.country}>
           <FaArrowCircleRight />
-        </a> 
+        </a>
       </div>
       <p>
         Total-Confirmed:
