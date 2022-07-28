@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom/extend-expect';
 import fetchingData from '../Mock/fetchCountries';
 
-describe('test fetching data', () => {
+describe('test fetching data', () => { 
   it('test fetching country name', async () => {
     await fetchingData().then((data) => expect(data.data[0].name).toBe('India'));
   });
