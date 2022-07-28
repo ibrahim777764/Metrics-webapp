@@ -4,7 +4,7 @@ import Country from './countrylist';
 import { getCovidFromApi } from '../redux/actions/fetchapi';
 
 // const todayDate = new Date().toISOString().slice(0, 10);
-const Home = () => {
+const Home = () => { 
   const dispatch = useDispatch();
   const dataCovid = useSelector((state) => state.covidReducer);
   // console.log(dataCovid, ' new data covid response');
