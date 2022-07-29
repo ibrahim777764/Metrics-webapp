@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Component test Renders main Page 1`] = `
+<div>
+  <form>
+    <br />
+    <input
+      className="search"
+      onChange={[Function]}
+      placeholder="SEARCH BY COUNTRY NAME"
+      type="text"
+      value=""
+    />
+  </form>
+  <div
+    className="title"
+  >
+     
+  </div>
+</div>
+`;
