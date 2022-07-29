@@ -1,8 +1,6 @@
 const FETCH_COVID = 'FETCH_COVID';
 const FETCH_COUNTRY = 'FETCH_COUNTRY';
 
-// const todayDate = new Date().toISOString().slice(0, 10);
-
 const baseUrldate = 'https://covid-api.mmediagroup.fr/v1/cases';
 const initialState = {
   covid: [],
@@ -22,8 +20,6 @@ export const getCountry = (payload) => ({
 export const getCovidFromApi = () => async (dispatch) => {
   const request = await fetch(baseUrldate);
   const response = await request.json();
-  // console.log(response, 'response fo');
-  // const data = response.dates[todayDate].countries;
   const entries = Object.entries(response);
   dispatch(getCovid(entries));
 };
