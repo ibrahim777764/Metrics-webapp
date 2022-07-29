@@ -40,11 +40,11 @@ exports[`Navbar Component Test Renders NavBar 1`] = `
           </svg>
         </a>
         <span>
-          2022-01-13
+          2022-07-29
         </span>
       </nav>
       <p>
-        Today's Covid details.
+        Country's Covid details.
       </p>
       <nav
         className="icons"

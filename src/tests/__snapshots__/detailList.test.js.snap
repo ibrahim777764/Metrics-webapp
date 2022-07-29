@@ -31,26 +31,13 @@ exports[`Country Component test Renders Deatils 1`] = `
             </h2>
             <p>
               <b>
-                Date:
+                Capital:
               </b>
-              <b />
             </p>
           </div>
           <div
             className="main-wrap"
           >
-            <div
-              className="sor"
-            >
-              <p
-                className="dat-type"
-              >
-                SOURCE:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
             <div
               className="sor"
             >
@@ -78,10 +65,8 @@ exports[`Country Component test Renders Deatils 1`] = `
             <div
               className="sor"
             >
-              <p
-                className="dat-type"
-              >
-                CONFIRMED:
+              <p>
+                Life_expectancy:
               </p>
               <b
                 className="dat-type"
@@ -91,7 +76,7 @@ exports[`Country Component test Renders Deatils 1`] = `
               className="sor"
             >
               <p>
-                TODAY DEATH:
+                population:
               </p>
               <b
                 className="dat-type"
@@ -101,7 +86,7 @@ exports[`Country Component test Renders Deatils 1`] = `
               className="sor"
             >
               <p>
-                today_new_open_cases:
+                Latitude:
               </p>
               <b
                 className="dat-type"
@@ -111,107 +96,7 @@ exports[`Country Component test Renders Deatils 1`] = `
               className="sor"
             >
               <p>
-                today_new_recovered:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                today_open_cases:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                today_recovered:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                today_vs_yesterday_confirmed:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                today_vs_yesterday_deaths:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                today_vs_yesterday_open_cases:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                today_vs_yesterday_recovered:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                yesterday_confirmed:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                yesterday_deaths:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                yesterday_open_cases:
-              </p>
-              <b
-                className="dat-type"
-              />
-            </div>
-            <div
-              className="sor"
-            >
-              <p>
-                yesterday_recovered:
+                Longtitide:
               </p>
               <b
                 className="dat-type"
